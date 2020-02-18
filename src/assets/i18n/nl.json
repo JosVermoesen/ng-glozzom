@@ -1,6 +1,9 @@
 {
   "NAVBAR": {
-    "NavTitle": "Sjabloon",
+    "NavTitle": "Glozzom Sjabloon",
+    "NavAbout": "Over Ons",
+    "NavBlog": "Blog",
+    "NavContact": "Contact",
     "LanguageModalTitle": "Kies uw taal:",
     "LanguageModalCloseBtnName": "Sluiten"
   },

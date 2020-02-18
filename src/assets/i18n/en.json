@@ -1,6 +1,9 @@
 {
   "NAVBAR": {
-    "NavTitle": "BS Template",
+    "NavTitle": "Glozzom Template",
+    "NavAbout": "About Us",
+    "NavBlog": "Blog",
+    "NavContact": "Contact Us",
     "LanguageModalTitle": "Select your language:",
     "LanguageModalCloseBtnName": "Close"
   },
