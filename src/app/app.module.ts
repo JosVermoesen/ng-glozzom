@@ -1,27 +1,27 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import { HttpClientModule, HttpClient } from "@angular/common/http";
-import { ReactiveFormsModule } from "@angular/forms";
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
-import { TranslateHttpLoader } from "@ngx-translate/http-loader";
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-import { BsDatepickerModule } from "ngx-bootstrap/datepicker";
-import { ButtonsModule } from "ngx-bootstrap/buttons";
-import { TabsModule } from "ngx-bootstrap/tabs";
-import { ModalModule, BsModalRef } from "ngx-bootstrap/modal";
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { TabsModule } from 'ngx-bootstrap/tabs';
+import { ModalModule, BsModalRef } from 'ngx-bootstrap/modal';
 
-import { AppRoutingModule } from "./app-routing.module";
-import { AppComponent } from "./app.component";
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
-import { LanguageService } from "./_services/language.service";
-import { NavbarComponent } from "./components/navbar/navbar.component";
-import { LanguageComponent } from "./components/navbar/language/language.component";
+import { LanguageService } from './_services/language.service';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { LanguageComponent } from './components/navbar/language/language.component';
 
 export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, "assets/i18n/", ".json");
+  return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
 }
 
 @NgModule({

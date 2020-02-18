@@ -16,14 +16,14 @@ export class NavbarComponent implements OnInit {
 
   constructor(
     private modalService: BsModalService,
-    private translate: TranslateService
+    private ts: TranslateService
   ) {}
 
   ngOnInit() {}
 
   onLanguageModal() {
-    const lblTitle = this.translate.instant('NAVBAR.LanguageModalTitle');
-    const lblCloseBtnName = this.translate.instant(
+    const lblTitle = this.ts.instant('NAVBAR.LanguageModalTitle');
+    const lblCloseBtnName = this.ts.instant(
       'NAVBAR.LanguageModalCloseBtnName'
     );
 

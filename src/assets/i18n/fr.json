@@ -1,7 +1,18 @@
 {
   "NAVBAR": {
-    "NavTitle": "Domiciliations créancier",
-    "LanguageModalTitle": "Choisissez votre langue:",
-    "LanguageModalCloseBtnName": "Fermer"
+    "NavTitle": "BS Template",
+    "LanguageModalTitle": "Select your language:",
+    "LanguageModalCloseBtnName": "Close"
+  },
+
+  "selectOptionsDemo": {
+    "A10C": [
+      { "value": "0", "viewvalue": "0:" },
+      { "value": "1", "viewValue": "1: French" },
+      { "value": "2", "viewValue": "2: Dutch" },
+      { "value": "3", "viewValue": "3: German" },
+      { "value": "4", "viewValue": "4: English" },
+      { "value": "9", "viewValue": "9: Other" }
+    ]
   }
 }
