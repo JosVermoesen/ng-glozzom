@@ -1,5 +1,3 @@
-import { ContactComponent } from './components/navbar/contact/contact.component';
-import { BlogComponent } from './components/navbar/blog/blog.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -18,10 +16,13 @@ import { ModalModule, BsModalRef } from 'ngx-bootstrap/modal';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { HomeComponent } from './components/navbar/home/home.component';
-import { AboutComponent } from './components/navbar/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LanguageComponent } from './components/navbar/language/language.component';
+
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 import { LanguageService } from './_services/language.service';
 
