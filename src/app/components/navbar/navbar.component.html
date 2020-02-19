@@ -1,32 +1,29 @@
-<!-- <nav class="navbar navbar-dark bg-dark mb-3">
-  <div class="container">
-    <a href="#" class="navbar-brand">{{ 'NAVBAR.NavTitle' | translate }}</a>
-    <button class="navbar-toggler" (click)="onLanguageModal()" type="button" data-toggle="collapse"
-      data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </div>
-</nav> -->
-
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container">
     <a routerLink="/home" class="navbar-brand">{{ 'NAVBAR.NavTitle' | translate }}</a>
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
+      <span class=""></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a routerLink="/about" class="nav-link">{{ 'NAVBAR.NavAbout' | translate }}</a>
         </li>
+
         <li class="nav-item">
           <a routerLink="/blog" class="nav-link">{{ 'NAVBAR.NavBlog' | translate }}</a>
         </li>
+
         <li class="nav-item">
           <a routerLink="/contact" class="nav-link">{{ 'NAVBAR.NavContact' | translate }}</a>
-          <!-- <a href="contact.html" class="nav-link">Contact</a> -->
+        </li>
+
+        <li class="nav-item">
+          <a (click)="onLanguageModal()"><img src="/assets/icons/gear.svg" width="40" height="40"
+              title="{{ 'NAVBAR.NavSettings' | translate }}"></a>
         </li>
       </ul>
     </div>
