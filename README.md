@@ -17,11 +17,13 @@ Your data is stored as json files inside the localStorage of the browser you are
 
 ## NPM packages used for this app
 - [bootstrap](https://www.npmjs.com/package/bootstrap): `npm i bootstrap`
+- [bootstrap icons](https://www.npmjs.com/package/bootstrap-icons): `npm i bootstrap-icons`
+- [jquery](https://www.npmjs.com/package/jquery): `npm i jquery`
 - [ngx-bootstrap](https://www.npmjs.com/package/ngx-bootstrap): `npm i ngx-bootstrap@5.3.2` (or greater)
 - [@ngx-translate/core](https://www.npmjs.com/package/@ngx-translate/core): `npm i @ngx-translate/core`
 - [@ngx-translate/http-loader](https://www.npmjs.com/package/@ngx-translate/http-loader): `npm i @ngx-translate/http-loader`
 
-- install all packages in one commandline: `npm i bootstrap ngx-bootstrap@5.3.2 @ngx-translate/core @ngx-translate/http-loader`
+- install all packages in one commandline: `npm i bootstrap bootstrap-icons jquery ngx-bootstrap@5.3.2 @ngx-translate/core @ngx-translate/http-loader`
 
 ## styles.css
 For use of bootstrap, add into styles.css:
