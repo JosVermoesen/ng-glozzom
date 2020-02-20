@@ -1,4 +1,4 @@
-# ng-glozzom - Demo Bootstrap simple site
+# ng-glozzom - Demo Multi-language site using Bootstrap
 ## Getting started for users
 You can use directly via [demo](https://glossom.rv-services.be)
 Your data is stored as json files inside the localStorage of the browser you are using.
